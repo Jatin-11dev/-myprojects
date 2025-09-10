@@ -59,7 +59,7 @@ const checkwinner = () => {
             }
         }
 
-    };
+    }
 
 }
 ne.addEventListener("click", resetGame);
