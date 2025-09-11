@@ -62,5 +62,5 @@ const checkwinner = () => {
     }
 
 }
-ne.addEventListener("click", resetGame);
+ne.addEventListener("click", resetGame)
 re.addEventListener("click", resetGame)
