@@ -58,9 +58,7 @@ const checkwinner = () => {
                 showWinner(pos1val);
             }
         }
-
     }
-
 }
 ne.addEventListener("click", resetGame)
 re.addEventListener("click", resetGame)
