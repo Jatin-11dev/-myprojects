@@ -19,6 +19,6 @@ async function weatherdata(city) {
         document.getElementById("weather-icon").alt = data.weather[0].description;
     }
 }
-btn.addEventListener("click", () => {
+btn.addEventListener("click", () =>{
     weatherdata(input.value)
 })
