@@ -3,20 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: #93A8AC;
     text-align: center;
 }
-
 .container {
-    height: 70vh;
+    height: 60vh;
     display: flex;
 
     justify-content: center;
     align-items: center;
 }
-
 .game {
     height: 60vmin;
     width: 60vmin;
@@ -29,7 +26,6 @@ body {
     gap: 10px;
 
 }
-
 .box {
     height: 18vmin;
     width: 18vmin;
@@ -74,7 +70,6 @@ body {
     top: 300px;
 
 }
-
 .hide {
     display: none;
 }
