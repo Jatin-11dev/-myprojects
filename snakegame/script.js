@@ -11,7 +11,6 @@ let diplay = document.getElementById("div1");
 let s = document.getElementById("btn3");
 let score = 0;
 let snakeBody = [];
-
 function growSnake() {
   let bodyPart = document.createElement("div");
   bodyPart.classList.add("snake-body");
