@@ -47,7 +47,6 @@ function checkCollision() {
     score++;
   }
 }
-
 document.querySelector("#btn1").addEventListener("click", () => {
   let h = document.querySelector("#te");
     let play = document.querySelector("#playground");
