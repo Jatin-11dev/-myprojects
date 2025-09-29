@@ -33,7 +33,6 @@ function placeFoodRandomly() {
   food.style.left = randomX + "px";
   food.style.top = randomY + "px";
 }
-
 function checkCollision() {
   let foodRect = food.getBoundingClientRect();
   let snakeRect = element.getBoundingClientRect();
