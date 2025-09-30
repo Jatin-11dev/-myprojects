@@ -36,7 +36,6 @@ function placeFoodRandomly() {
 function checkCollision() {
   let foodRect = food.getBoundingClientRect();
   let snakeRect = element.getBoundingClientRect();
-
   if (
     Math.abs(snakeRect.left - foodRect.left) < 30 &&
     Math.abs(snakeRect.top - foodRect.top) < 30
