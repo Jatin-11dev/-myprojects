@@ -22,6 +22,6 @@ function calculate() {
     try {
         display.innerText = eval(display.innerText);
     } catch {
-        display.innerText = "Error";
+        display.innerText = "not valid";
     }
 }
