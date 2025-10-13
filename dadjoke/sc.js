@@ -18,6 +18,5 @@
     
 
   }
-
   frd()
       btn.addEventListener("click", frd);
