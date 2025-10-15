@@ -16,7 +16,6 @@
           output.innerText = "Oops! Failed to load joke 😢";
 }
     
-
   }
   frd()
       btn.addEventListener("click", frd);
