@@ -9,13 +9,13 @@
       headers: { Accept: "application/json" }
     })
     let dar=await res.json()
-    console.log(dar);
+    console.log(dar);                 
     output.innerText = dar.joke;
 } catch(er){
        output.innerText = er
           output.innerText = "Oops! Failed to load joke 😢";
 }
-    
+   
   }
   frd()
       btn.addEventListener("click", frd);
